@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="./files/style.css">
+    </head>
+
+    <body>
+
+        <h1>
+            <a href="index.html" class="prev">&lt; Previous</a>
+            Lecture 2 Javascript
+            <a href="lec3.html" class="prev">Next &gt;</a>
+        </h1>
+        <div class="container">
+
+            <h2>Manuals & Specs</h2>
+
+            <h3>ECMA-262</h3>
+            <p>ontains the most in-depth, detailed and formalized information about JavaScript. It defines the language.</p>
+
+            <button id="click">clickme</button>
+        </div>
+        <script>
+            document.getElementById('click').addEventListener('click', function () {
+                alert("Hello, World!");
+            });
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,67 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Doctor Appointment Form</title>
+</head>
+<body> 
+	
+	<table align="center" width="70%" cellpadding="10px" cellspacing="0">
+		
+		<tr>
+			<td rowspan="10"><img src="img/doc.png" align="left" width="500px" alt="Doctor Appointment Form"></td>
+			<td colspan="3"><h1 align="center">Doctor Appointment Form</h1><hr color="red"/></td>
+		</tr>
+		<tr>
+			<td>Appointment Date</td>
+			<td colspan="2"><input type="date"/></td>
+		</tr>
+		<tr>
+			<td>Appointment Time</td>
+			<td colspan="2"><input type="time"/></td>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" placeholder="First"/></td>
+			<td><input type="text" placeholder="Last"/></td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td colspan="2">Male<input type="radio" name="gender"/>Female<input type="radio" name="gender"/></td>
+		</tr>
+		<tr>
+			<td>Phone</td>
+			<td colspan="2"><input type="text" maxlength="10" placeholder="####"/></td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><input type="text" placeholder="city"/></td>
+			<td><input type="text" placeholder="state"/></td>
+		</tr>
+		<tr>
+			<td>Your Query</td>
+			<td colspan="2">
+				<textarea cols="40" rows="4"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Appointment Type</td>
+			<td colspan="2">
+				Select which appointment type(s) you require<br/>
+				<input type="checkbox"/> Cervix checkup<br/>
+				<input type="checkbox"/> Heart checkup<br/>
+				<input type="checkbox"/> Eye check-up<br/>
+				<input type="checkbox"/> Hearing Test<br/>
+			</td>
+			
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan="2"> 
+				<input type="submit" value="Send"/>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/* Body Styles */
+body {
+    background: url('back.jpg');
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+/* Header Styles */
+h1 {
+    border: 2px solid green;
+    color: white;
+    margin: 50px;
+    padding: 10px;
+    background: maroon;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    text-indent: 0;
+}
+
+/* First Paragraph */
+.paragraph-1 {
+    background: orange;
+    color: white;
+    border: 3px solid red;
+    padding: 40px;
+    font-size: 20px;
+    margin: 50px;
+    text-align: justify;
+    line-height: 1.8;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-indent: 20px;
+}
+
+/* Second Paragraph */
+.paragraph-2 {
+    background: rgb(255,235,65);
+    font-family: 'Monotype Corsiva', cursive;
+    color: red;
+    border: 3px dotted red;
+    border-radius: 30px;
+    padding: 40px;
+    font-size: 20px;
+    margin: 50px;
+    text-align: left;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 2;
+    text-indent: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Third Paragraph */
+.paragraph-3 {
+    background: rgba(255,235,65,.5);
+    font-family: 'Monotype Corsiva', cursive;
+    padding: 40px;
+    border-radius: 40px 0;
+    color: blue;
+    font-size: 20px;
+    box-shadow: 4px 5px 5px 5px white;
+    margin: 50px;
+    text-align: right;
+    font-weight: lighter;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: overline;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    text-indent: 25px;
+    white-space: normal;
+    direction: ltr;
+}
+
+/* Additional Text Properties */
+.special-text {
+    font-variant: small-caps;
+    text-decoration: line-through;
+    vertical-align: baseline;
+    unicode-bidi: normal;
+    writing-mode: horizontal-tb;
+}
+
+.highlighted-text {
+    text-decoration: underline overline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-underline-position: under;
+}
+
+.spaced-text {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    white-space: pre-line;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

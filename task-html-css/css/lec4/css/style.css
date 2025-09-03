@@ -1,0 +1,107 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('Chiq Medium.otf');
+    font-weight: bold;
+}
+body
+{
+    padding:0px;
+    margin:0px;
+    font-family:myFirstFont ;
+    background:url('../img/back.png');
+    background-size:100%;
+}
+
+
+.outer
+{
+    width:1024px;
+    margin:auto;
+}
+.nav
+{
+    margin-top: 20px;
+    width:100%;
+    height:50px;
+    border:1px solid black;
+    border-bottom:5px solid orange;
+    background: black;
+    box-shadow: black 2px 2px 4px 2px;
+}
+.nav ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul li
+{
+    list-style: none;
+}
+.nav ul li a
+{
+    display: block;
+    padding: 10px;
+    background: black;
+    float: left;
+    height: 30px;
+    font-family: cursive;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-decoration: none;
+    color: white;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-timing-function: cubic-bezier;
+   
+}
+.nav ul li a:hover
+{
+    background: gray;
+    border-left: 1px solid gold;
+    border-right: 1px solid gold;
+    box-shadow: white 1px 1px 1px 1px;
+}
+
+.login{	
+    width:380px;
+    height:260px;
+    background:rgba(0,0,0,.6);
+    margin:auto;
+    margin-top:100px;
+    border-radius:5px;
+    color:white;
+    padding:50px;
+}
+.login table{
+    width:100%;
+}
+input[type="email"],input[type="password"]{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+}
+a{
+color:white;
+}
+input[type="button"]{
+    width:105%;
+    color:blue;
+    padding:10px 5px;
+    background:orange;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+#b1{
+    font-size:20px;
+}
+td,th{
+    padding: 10px;
+}
+input[type="button"]:hover
+{
+    background:rgb(3, 202, 252);
+}

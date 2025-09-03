@@ -1,0 +1,763 @@
+@font-face {
+    font-family: billabong;
+    src: url('font/Billabong.ttf');
+}
+@font-face {
+    font-family: pinterest;
+    src: url('font/terra-narrow-normal.ttf');
+}
+@font-face {
+    font-family: google;
+    src: url('font/Catull.ttf');
+}
+@font-face {
+    font-family: disney;
+    src: url('font/waltograph42.ttf');
+}
+@font-face {
+    font-family: mailchimp;
+    src: url('font/Wendy LP Bold.ttf');
+}
+body,.header .nav ul,.header .nav ul li,.footer_mid ul,.footer_mid ul li
+{
+	padding:0;
+	margin:0;
+}
+body
+{
+    font:16px  "Helevetica Neue",Helvetica,Arial,sans-serif;
+}
+.left,.header .nav ul li a,.content .list_box >div,.companies  .comp_logos div>span,.article .dot span,.tab .row .col_one,.tab .row .col_two,.footer_top div>span,.trusted_by span,.footer_top div span>span,.footer_top .data>div
+{
+	float:left;
+}
+.right
+{
+	float:right;
+}
+.clear,.companies  .comp_logos div,.get_in_touch .contact_form .tab .row
+{
+	clear:both;
+}
+
+.header_full,.title_full ,.content_full,.contact_full,.companies_full,.article_full,.get_in_touch_full,.trusted_by_full,.footer_full,.hidden_full
+{
+	width:100%;
+}
+.header .nav ul li a,.title .contact_top>span,.companies  .comp_logos div>span,.article .dot span,.article .arrow .circle,.tab .row .col_one,.tab .row .col_two,.trusted_by span,.footer_top div>span,.footer_top div span>span, .bubble:after, .bubble:before
+{
+	display:block;
+}
+.header_full,.footer_full
+{
+	background:#000000;
+}
+.header_full
+{	
+	height:80px;
+	position:fixed;
+}
+.header,.title,.content,.contact,.get_in_touch,.trusted_by
+{
+	width:990px;
+}
+.header,.title,.content,.contact,.get_in_touch,.trusted_by,.content>div,.companies,.companies .from_the_samll,.article,.article .dot>div,.article .arrow .circle,.footer,.large_circle
+{
+	margin:auto;
+}
+.header
+{		
+    font-size: 16px;	
+	margin-top:15px;
+}
+.header .logo a,.footer_mid ul li .active,.footer_mid ul li a:hover,.footer_bottom .link a:hover,.header .nav ul li .first
+{
+	color:#fff000;
+}
+.header .logo a
+{
+	font:32px "Bauhaus 93";
+	width:200px;	
+}
+.header .nav
+{
+	width:635px;
+	padding:4px 0;
+}
+.header .nav ul,.header .nav ul li,.footer_mid ul,.footer_mid ul li
+{
+	list-style:none;
+}
+.header .nav ul li
+{
+	display:inline;
+}
+.header .logo a,.header .nav ul li a,.footer_mid ul li a,.footer_bottom .copyright,.footer_bottom .link a,.content .list_box  .premium a:hover,.address a:hover,.footer_top .data .mail:hover
+{
+	text-decoration:none;
+}
+.header .nav ul li a:hover,.header .nav ul li .last,.contact .contact_btn,.send_btn,input[type="text"],input[type="email"],textarea,.bubble 
+{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.header .nav ul li a
+{
+	padding:10px 20px;
+	margin:0 19px 0 15px;
+	
+}
+.header .nav ul li a:hover,.companies_full,.trusted_by_full,.companies  .comp_logos .view_more .view_btn
+{
+	background:#333333;
+}
+.header .nav ul li .last
+{
+	background:#444444;
+	margin-right:0;
+}
+.hidden_full
+{
+	height:80px;
+}
+.title_full,.article_full
+{
+	background:#FFF000;
+}
+.title_full
+{	
+	height:127px;
+	padding:15px 0;	
+}
+.title
+{
+	padding-top:15px;
+	margin-top:15px;
+}
+.title .enterprise
+{
+	font-size:48px;
+	padding-top:5px;
+	letter-spacing:-1px;
+}
+.title .contact_top
+{
+	padding-top:14px;
+}
+.title .contact_top>span
+{
+	text-align:right;
+}
+.title .contact_top .first
+{
+	font-size:22px;
+	letter-spacing:.2px;
+}
+.title .contact_top .first .under
+{
+	background:url('img/under_line.png')bottom right no-repeat;
+}
+.title .contact_top .second
+{
+	font-size:14px;
+	background:url('img/under_line.png')top left no-repeat;
+	width:435px;
+}
+.content_full,.bubble ,.get_in_touch_full
+{
+	background:#ffffff;
+}
+.content_full
+{
+	height:745px;
+	padding:15px 0;
+}
+.content,.content .list_box,.contact_full,.contact,.companies_full,.companies,.article,.article .arrow,.get_in_touch .contact_form .tab,.get_in_touch,.footer_mid,.trusted_by .trust,.trusted_by .microsoft,.have_a_qus_box
+{
+	padding-top:15px;
+}
+.content,.content>div,.companies,.companies  .comp_logos .billabong,.billabong,.companies  .comp_logos .github,.github,.companies  .comp_logos .view_more,.article,.get_in_touch .contact_form .tab,.get_in_touch,.get_in_touch .contact_form .tab .row,.contact_info .address,.trusted_by .github,.trusted_by .billabong,.footer
+{
+	margin-top:15px;	
+}
+.content>div
+{
+	padding-top:5px;
+	
+}
+.content .powerful,.content .pingdom,.content .list_box,.companies .great,.companies .from_the_samll,.companies  .comp_logos .view_more,.article .double_quto,.article .dot,.article .article_txt,.article .arrow .circle
+{
+	text-align:center;
+}
+.content .powerful 
+{
+	font-size:32px;
+	width:900px;
+}
+.content .pingdom
+{
+	font-size:28px;
+	padding-top:5px;
+	width:900px;
+	height:194px;
+}
+.pingdom p
+{
+	padding:0 15px;
+	line-height:42px;
+}
+.content .list_box h2
+{
+	font-weight:normal;
+	font-size:27px;
+}
+.content .list_box  ul
+{
+	text-align:left;
+}
+.content .list_box  ul li
+{
+	list-style-image:url('img/list_icon.png');
+	font-size:17px;
+	line-height:28px;
+}
+.content .list_box >div
+{
+	width:302px;
+}
+.content .list_box  .custom
+{
+	margin-right:20px;
+}
+.content .list_box .more_volume
+{
+	margin:0 20px;
+}
+.content .list_box  .premium
+{
+	margin-left:20px;
+}
+.content .list_box  .premium a,.tab .row .col_one  label
+{
+	color:#000000;
+}
+.contact_full
+{
+	background:#F8F8F8;
+	height:147px;
+	border-top:1px solid #E6E6E6;
+}
+.contact
+{
+	margin-top:12px;	
+}
+.contact .we_have
+{
+	width:600px;
+	font-size:24px;
+}
+.contact .contact_btn,.send_btn
+{
+	width:131px;
+	height:52px;
+	background:#57C700;
+	border:none;
+	-webkit-box-shadow:0 3px 3px 0 #C9C9C9;
+	-moz-box-shadow:0 3px 3px 0 #C9C9C9;
+	box-shadow:0 3px 3px 0 #C9C9C9;
+	border-bottom:3px solid #4DB300;
+	vertical-align:top;
+	margin-top:12px;
+	font-size:16px;
+	-webkit-text-shadow:0 2px 1px #989898;
+	-moz-text-shadow:0 2px 1px #989898;
+	text-shadow:0 2px 1px #989898;
+}
+.contact .contact_btn:hover,.send_btn:hover
+{
+	background:#59BC0D;
+}
+.companies_full
+{
+	height:671px;
+}
+.companies
+{
+	width:1000px;
+}
+.companies .great
+{
+	padding-top:4px;
+	font-size:32px;
+}
+.companies .from_the_samll
+{
+	font-size:19px;
+	width:920px;
+	padding-top:10px;
+	letter-spacing:.1px;
+	line-height:28px;
+	height:90px;
+}
+.companies  .comp_logos
+{
+	margin-top:5px;
+	padding-top:5px;
+}
+.companies  .comp_logos div
+{
+	height:85px;
+}
+.companies  .comp_logos div>span
+{
+	font-size:22px;
+	margin-right:15px;
+	padding:0 15px;
+}
+.companies  .comp_logos  .first
+{
+	padding-left:0;
+	margin-left:0;
+}
+.companies  .comp_logos  .last
+{
+	padding-right:0;
+	margin-right:0;
+}
+.companies  .comp_logos>div
+{
+	height:95px;
+}
+.companies  .comp_logos div>span img
+{
+	vertical-align:middle;
+	margin-right:3px;
+}
+
+.companies  .comp_logos .billabong,.billabong
+{
+	font:34px billabong;
+}
+.companies  .comp_logos .github,.github
+{
+	font-size:30px;
+}
+.companies  .comp_logos .pinterest, .pinterest
+{
+	margin-top:5px;
+	margin-right:0;
+	padding-right:0;
+	padding-left:0;
+	letter-spacing:-2px;
+	font:italic bold 40px pinterest;
+}
+.companies  .comp_logos .spotify
+{
+	position:relative;
+}
+.companies  .comp_logos .spotify:before
+{
+       position: absolute;
+       top:28px;
+       right:10px;
+       content: '\00AE';
+       font-size: 6px;
+}
+.companies  .comp_logos .google
+{
+	font:bold 30px google;
+	margin-top:5px;
+	position:relative;
+}
+.companies  .comp_logos .google:before
+{
+       position: absolute;
+       top: 10px;
+       right: 5px;
+       content: 'TM';
+       font-size: 6px;
+}
+.companies  .comp_logos .atlassion
+{
+	font-size:30px;
+	letter-spacing:-2px;
+}
+ .companies  .comp_logos .disney,.disney
+{
+
+	font:40px disney;
+}
+.companies  .comp_logos .mailchimp ,.mailchimp 
+{
+	font:40px mailchimp;
+}
+.path 
+{
+	font:bold 40px pinterest;
+}
+
+.companies  .comp_logos .view_more
+{
+	height:50px;
+}
+.companies  .comp_logos .view_more .view_btn
+{
+	height:49px;
+	width:119px;
+	border:2px solid #919191;
+	color:#CCCCCC;
+	font-size:16px;
+}
+.companies  .comp_logos .view_more .view_btn:hover
+{
+	background:#232323;
+}
+
+.article_full
+{
+	height:360px;
+	padding:15px 0;
+}
+.article
+{
+	width:1080px;
+}
+.article .double_quto
+{
+	padding:15px 0 8px;
+	margin-top:3px;
+}
+.article .article_wrap
+{
+	padding-top:10px;
+}
+.article .arrow
+{
+	width:140px;
+	margin-top:20px;
+}
+.article .dot>div
+{
+	width:120px;
+}
+.article .dot span,.article .arrow .circle,.large_circle
+{
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+}
+.article .dot span
+{
+	width:10px;
+	height:10px;
+	background:#E7D700;
+	margin:6px;
+}
+.article .dot .active
+{
+	background:#CFC100;
+}
+.article .article_txt
+{
+	width:800px;
+	font-size:22px;
+	line-height:40px;	
+}
+.article .article_txt .author
+{
+	font-size:14px;
+}
+.article .arrow .circle
+{
+	height:43px;
+	width:53px;
+	border:2px solid #D4C600;
+	vertical-align:baseline;
+	padding-top:8px;
+	font:28px Consolas;
+	color:#D4C600;	
+}
+.article .arrow .circle:hover
+{
+	border:2px solid #B9AD12;
+	color:#B9AD12;
+}
+.get_in_touch_full
+{
+	height:861px;
+	padding:15px 0;
+}
+.get_in_touch .contact_form
+{
+	width:540px;
+}
+.get_in_touch .contact_form .tab .row
+{
+	height:43px;
+	padding-top:2px;
+	width:450px;
+	
+}
+.get_in_touch .contact_form .tab .row .send_btn
+{
+	width:160px;
+}
+.tab .row .col_one
+{
+	padding-top:13px;
+	color:#ff0000;
+	width:112px;
+}
+.tab .row .col_one  label
+{
+	margin-right:5px;
+}
+.tab .row .col_two
+{
+	width:300px;
+}
+input[type="text"],input[type="email"],textarea
+{
+	width:325px;
+	height:41px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+	padding-left:10px;
+	font-size:16px;
+}
+textarea
+{
+	height:208px;
+	width:327px;
+	margin-bottom:15px;
+}
+.tab .row .col_two
+{
+	width:250px;
+}
+.get_in_touch .contact_info
+{
+	width:380px;
+}
+.get_in_touch  h2
+{
+	font-weight:normal;
+	font-size:32px;
+	padding-top:9px;
+}
+.get_in_touch  p
+{
+	font-size:14px;
+	padding-top:11px;
+	letter-spacing:.2px;
+}
+.contact_info p
+{
+	height:52px;
+}
+.contact_info .address,.contact_info .address a
+{
+	color:#666666;
+}
+.contact_info .address>div
+{
+	margin-top:13px;
+}
+.trusted_by_full
+{
+	height:56px;
+	padding:15px 0;
+}
+.trusted_by span
+{
+	margin:0 15px;
+	padding:0 7px;
+}
+.trusted_by .first
+{
+	padding-left:0;
+	margin-left:0;
+}
+.trusted_by .last
+{
+	padding-right:0;
+	margin-right:0;
+}
+.trusted_by span img
+{
+	vertical-align:middle;
+	margin-right:3px;
+}
+.trusted_by .trust
+{
+	font-size:12px;
+	margin-top:8px;
+}
+.trusted_by .billabong
+{
+	font-size:28px;
+}
+.trusted_by .github
+{
+	font:bolder 24px 'Californian FB';
+	letter-spacing:-2px;
+}
+.trusted_by .mailchimp
+{
+	margin-top:10px;
+	font-size:34px;
+}
+.trusted_by .disney
+{
+	font-size:34px;
+}
+.footer_full
+{
+	height:374px;
+	padding:15px 0;
+}
+.footer
+{
+	width:1030px;
+	padding-top:8px;
+}
+.footer_mid,.footer_top 
+{
+	border-bottom:1px solid #333333;
+}
+.footer_top 
+{
+	height:86px;
+	padding-left:15px;
+}
+.footer_top div>span
+{
+	margin-right:15px;
+}
+.footer_top .data .data_left
+{
+	margin-right:5px;
+}
+.footer_top .data .data_right,.footer_top .data .data_right>div
+{
+	height:18px;
+}
+.footer_top .data .data_right,.footer_top .data .data_right a
+{
+	font-size:13px;
+}
+.footer_top .data .data_right .support
+{
+	font-size:15px;
+}
+.footer_mid
+{
+	height:191px;
+	padding-left:15px;
+}
+.footer_mid >div
+{
+	width:170px;
+}
+.footer_mid ul,.footer_mid ul li
+{
+	line-height:18px;
+	margin-left:1px;
+}
+.footer_mid ul li a
+{
+	font-size:12px;
+}
+.footer_mid h3
+{
+	font-weight:normal;
+	line-height:10px;
+	padding-top:5px;
+	height:0px;
+}
+.footer_bottom,.footer_bottom .copyright,.footer_bottom .link a,.footer_top .data .data_right,.footer_top .data .data_right a,.get_in_touch  p,.trusted_by span,.companies .from_the_samll,.tab .row .col_one .gray_lable
+{
+	color:#999999;
+}
+.footer_bottom
+{
+	margin-top:10px;
+	padding:15px 0;	
+}	
+.footer_bottom .copyright,.footer_bottom .link a
+{
+	font-size:11px;	
+	margin-right:4px;
+}
+.footer_bottom .copyright
+{
+	margin:3px 0 0 15px;
+}
+.footer_bottom .link
+{
+	margin-right:10px;
+}
+.bubble 
+{
+    position: relative;
+    min-width:44px;
+    height: 26px;
+    border: #000000 solid 1px;
+	margin:6px 0 0 10px;
+	padding:12px 8px 0 12px;
+	font-size:12px;
+}
+.bubble,.trusted_by .microsoft,.companies  .comp_logos div>span
+{
+	font-weight:bold;
+}
+
+.bubble:after 
+ {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    border-style: solid;
+    border-width: 7px 8px 7px 0;
+    border-color: transparent #ffffff;
+    width: 0;
+    z-index: 1;
+}
+
+.bubble:before 
+{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -9px;
+    border-style: solid;
+    border-width: 7px 8px 7px 0;
+    border-color: transparent #000000;
+    width: 0;
+    z-index: 0;
+}
+.header .nav ul li a,.footer_mid ul li a,.footer_mid,.footer_top .data .data_right .support,.companies  .comp_logos div>span,.contact .contact_btn,.send_btn,.companies .great,.companies .from_the_samll,.header .logo a:hover,.footer_top .data .mail:hover
+{
+	color:#ffffff;
+}
+.large_circle
+{
+	width:108px;
+	height:108px;
+	background:#333333;
+}
+.have_a_qus_box
+{
+	background:url('images/have_a_qus.png')no-repeat;
+	height:40px;
+	-webkit-transform: rotate(-8deg);
+	-moz-transform: rotate(-8deg);
+	-webkit-text-shadow:0 0 1px #000000;
+	-moz-text-shadow:0 0 1px #000000;
+	text-shadow:0 0 1px #000000;
+	margin-right:15px;
+}
+
+

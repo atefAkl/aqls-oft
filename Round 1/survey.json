@@ -1,0 +1,507 @@
+{
+    "survey": {
+        "name": "نموذج التقديم لدورة تطوير الويب",
+        "description": "",
+        "purpose": "",
+        "start_date": "",
+        "end_date": "",
+        "servey_period": "60",
+        "url": "",
+        "questions": [
+            {
+                "id": "1",
+                "order": "1",
+                "type": "text",
+                "question": "Full Name",
+                "description": "",
+                "required": 1,
+                "notes": [
+                     "Enter your full legal name as it appears on official documents",
+                    "include first name, middle name, and last name."
+                ],
+                "options": [],
+                "perfect_answer": "any",
+                "placeholder": "e.g., John Michael Smith",
+                "range": "",
+                "weight": "4"
+            },
+            {
+                "id": "2",
+                "order": "2",
+                "type": "text",
+                "question": "Email",
+                "description": "",
+                "required": 1,
+                "notes": [
+                    "This form is collecting email addresses."
+                ],
+                "options": [],
+                "perfect_answer": "any",
+                "placeholder": "Valid email address",
+                "range": "",
+                "weight": "4"
+            },
+            
+            {
+                "id": "3",
+                "order": "3",
+                "type": "select",
+                "question": "Age",
+                "description": "",
+                "required": 1,
+                "notes": [
+                    "اختر الفئة العمرية"
+                ],
+                "options": [
+                    { "id": "1", "order": "1", "option": "اقل من 15 سنة", "weight": "0" },
+                    { "id": "2", "order": "2", "option": "من 15 إلى 25 سنة", "weight": "3" },
+                    { "id": "3", "order": "3", "option": "من 25 إلى 35 سنة", "weight": "2" },
+                    { "id": "4", "order": "4", "option": "أكبر من 35 سنة", "weight": "0" }
+                ],
+                "perfect_answer": "[2]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "5",
+                "order": "4",
+                "type": "select",
+                "question": "Gender",
+                "description": "",
+                "required": 1,
+                "notes": [" اختر الجنس"],
+                "options": [
+                    { "id": "1", "order": "1", "option": "ذكر", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "أنثى", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "أفضل عدم الإجابة", "weight": "1" }
+                ],
+                "perfect_answer": "any",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "6",
+                "order": "5",
+                "type": "dropdown",
+                "question": "Country",
+                "description": "",
+                "required": 1,
+                "notes": ["اختر الدولة"],
+                "options": [
+                    { "id": "1", "order": "1", "option": "مصر", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "السعودية", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "الإمارات", "weight": "4" },
+                    { "id": "4", "order": "4", "option": "الكويت", "weight": "4" },
+                    { "id": "5", "order": "5", "option": "قطر", "weight": "4" },
+                    { "id": "6", "order": "6", "option": "البحرين", "weight": "4" },
+                    { "id": "7", "order": "7", "option": "عمان", "weight": "4" },
+                    { "id": "8", "order": "8", "option": "الأردن", "weight": "4" },
+                    { "id": "9", "order": "9", "option": "فلسطين", "weight": "4" },
+                    { "id": "10", "order": "10", "option": "لبنان", "weight": "4" },
+                    { "id": "11", "order": "11", "option": "سوريا", "weight": "4" },
+                    { "id": "12", "order": "12", "option": "العراق", "weight": "4" },
+                    { "id": "13", "order": "13", "option": "اليمن", "weight": "4" },
+                    { "id": "14", "order": "14", "option": "ليبيا", "weight": "4" },
+                    { "id": "15", "order": "15", "option": "تونس", "weight": "4" },
+                    { "id": "16", "order": "16", "option": "الجزائر", "weight": "4" },
+                    { "id": "17", "order": "17", "option": "المغرب", "weight": "4" },
+                    { "id": "18", "order": "18", "option": "موريتانيا", "weight": "4" },
+                    { "id": "19", "order": "19", "option": "الصومال", "weight": "4" },
+                    { "id": "20", "order": "20", "option": "جيبوتي", "weight": "4" },
+                    { "id": "21", "order": "21", "option": "جزر القمر", "weight": "4" }
+                ],
+                "perfect_answer": "any",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "7",
+                "order": "6",
+                "type": "text",
+                "question": "Residence",
+                "description": "",
+                "required": 1,
+                "notes": [
+                            "Please provide your current city and country of residence"
+                        ],
+                "options": [],
+                "perfect_answer": "any",
+                "placeholder": "",
+                "range": "",
+                "weight": "4"
+            },
+            {
+                "id": "8",
+                "order": "7",
+                "type": "select",
+                "question": "Educational Level",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "طالب ثانوي", "weight": "3" },
+                    { "id": "2", "order": "2", "option": "طالب جامعي", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "خريج جامعي", "weight": "3" },
+                    { "id": "4", "order": "4", "option": "ماجستير", "weight": "2" },
+                    { "id": "5", "order": "5", "option": "دكتوراه", "weight": "1" }
+                ],
+                "perfect_answer": "[2]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "9",
+                "order": "8",
+                "type": "text",
+                "question": "What is your major?",
+                "description": "",
+                "required": 0,
+                "notes": [],
+                "options": [],
+                "perfect_answer": "any",
+                "placeholder": "",
+                "range": "",
+                "weight": "4"
+            },
+            {
+                "id": "10",
+                "order": "9",
+                "type": "select",
+                "question": "What is your employment status?",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "طالب", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "خريج", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "موظف", "weight": "3" },
+                    { "id": "4", "order": "4", "option": "أعمل لحسابي", "weight": "1" },
+                    { "id": "5", "order": "5", "option": "أبحث عن عمل", "weight": "2" }
+                ],
+                "perfect_answer": "[1,2]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "11",
+                "order": "11",
+                "type": "select",
+                "question": "What is your English language proficiency?",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "مبتدئ", "weight": "2" },
+                    { "id": "2", "order": "2", "option": "متوسط", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "متقدم", "weight": "4" },
+                    { "id": "4", "order": "4", "option": "متمكن", "weight": "4" }
+                ],
+                "perfect_answer": "[2,3,4]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "12",
+                "order": "12",
+                "type": "select",
+                "question": "Do you own a personal computer (PC or laptop) that you can work on?",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "نعم", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "لا", "weight": "0" }
+                ],
+                "perfect_answer": "[1]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "13",
+                "order": "13",
+                "type": "checkbox",
+                "question": "Which operating systems do you use?",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "ويندوز", "weight": "1" },
+                    { "id": "2", "order": "2", "option": "ماك",    "weight": "1" },
+                    { "id": "3", "order": "3", "option": "لينكس",  "weight": "1" },
+                    { "id": "4", "order": "4", "option": "أخرى",   "weight": "1" },
+                    { "id": "5", "order": "5", "option": "اخرى",   "weight": "1" }
+                ],
+                "perfect_answer": "[1,2,3,4,5]",
+                "placeholder": "يرجى التوضيح إذا اخترت ",
+                "range": ""
+            },
+             {
+                "id": "14",
+                "order": "14",
+                "type": "select",
+                "question": "What is your understanding of basic technical English terms (e.g., File, Browser, Code)?",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "ممتاز", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "جيد", "weight": "3" },
+                    { "id": "3", "order": "3", "option": "مقبول", "weight": "2" },
+                    { "id": "4", "order": "4", "option": "ضعيف", "weight": "1" }
+                ],
+                "perfect_answer": "[1,2]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "15",
+                "order": "15",
+                "type": "select",
+                "question": "How do you organize your files and folders on your device?",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "منظم جدا", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "منظم", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "متوسط", "weight": "3" },
+                    { "id": "4", "order": "4", "option": "غير منظم", "weight": "1" }
+                ],
+                "perfect_answer": "[1,2]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "16",
+                "order": "16",
+                "type": "checkbox",
+                "question": "ما هي متصفحات الإنترنت التي تستخدمها بشكل منتظم؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "Chrome", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "Firefox", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "Safari", "weight": "4" },
+                    { "id": "4", "order": "4", "option": "Edge", "weight": "4" },
+                    { "id": "5", "order": "5", "option": "Other", "weight": "4" }
+                ],
+                "perfect_answer": "all",
+                "placeholder": "",
+                "range": "5"
+            },
+            {
+                "id": "17",
+                "order": "17",
+                "type": "select",
+                "question": "How do you rate your keyboard shortcuts skills?",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "متقدم", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "متوسط", "weight": "3" },
+                    { "id": "3", "order": "3", "option": "مبتدئ", "weight": "2" },
+                    { "id": "4", "order": "4", "option": "لا أعرف أي اختصارات", "weight": "0" }
+                ],
+                "perfect_answer": "[4]",
+                "placeholder": "",
+                "range": ""
+            },
+           
+            {
+                "id": "18",
+                "order": "18",
+                "type": "select",
+                "question": "كيف تقيّم قدرتك على البحث عن المعلومات وحل المشكلات باستخدام الإنترنت؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "ممتاز", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "جيد", "weight": "3" },
+                    { "id": "3", "order": "3", "option": "متوسط", "weight": "2" },
+                    { "id": "4", "order": "4", "option": "ضعيف", "weight": "1" }
+                ],
+                "perfect_answer": "[1]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "19",
+                "order": "19",
+                "type": "select",
+                "question": "كم ساعة أسبوعياً تستطيع تخصيصها للتعلم والتطبيق العملي؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "أقل من 5 ساعات", "weight": "2" },
+                    { "id": "2", "order": "2", "option": "5-10 ساعات", "weight": "3" },
+                    { "id": "3", "order": "3", "option": "أكثر من 15 ساعة", "weight": "4" }
+                ],
+                "perfect_answer": "any",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "20",
+                "order": "20",
+                "type": "select",
+                "question": "أي أسلوب تعلم تفضل؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "التعلم العملي بالمشاريع", "weight": "1" },
+                    { "id": "2", "order": "2", "option": "التعلم النظري", "weight": "2" },
+                    { "id": "3", "order": "3", "option": "مزيج من الاثنين", "weight": "4" }
+                ],
+                "perfect_answer": "[3]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "21",
+                "order": "21",
+                "type": "select",
+                "question": "عند مواجهة لغز أو تحدي منطقي، كيف تتعامل معه؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "أستمتع بحله وأبذل جهدي حتى أصل للحل", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "أحاول لفترة ثم أستسلم", "weight": "1" },
+                    { "id": "3", "order": "3", "option": "أطلب المساعدة فوراً", "weight": "1" },
+                    { "id": "4", "order": "4", "option": "أتجنب هذه التحديات", "weight": "0" },
+                    { "id": "5", "order": "5", "option": "أستخدم الذكاء الاصطناعي", "weight": "3" }
+                ],
+                "perfect_answer": "[4]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "22",
+                "order": "22",
+                "type": "checkbox",
+                "question": "هل لديك أي خبرة سابقة في البرمجة؟ إذا كانت الإجابة نعم، يرجى التوضيح",
+                "description": "",
+                "required": 1,
+                "notes": [
+                    "إذا اخترت نعم، يرجى ذكر نوع الخبرة أو لغات البرمجة التي تعاملت معها"
+                ],
+                "options": [
+                    { "id": "1", "order": "1", "option": "نعم", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "لا", "weight": "0" }
+                ],
+                "perfect_answer": "[1]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "23",
+                "order": "23",
+                "type": "select",
+                "question": "عند مواجهة مشكلة تقنية، ما هو أول إجراء تتخذه؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "أحاول حلها بنفسي", "weight": "2" },
+                    { "id": "2", "order": "2", "option": "أبحث في الإنترنت", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "أطلب المساعدة من الزملاء", "weight": "3" },
+                    { "id": "4", "order": "4", "option": "أتوجه للمختصين", "weight": "1" }
+                ],
+                "perfect_answer": "[2]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "24",
+                "order": "24",
+                "type": "select",
+                "question": "ما هو دافعك الرئيسي للتعلم؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "التطور الوظيفي", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "الشغف الشخصي", "weight": "1" },
+                    { "id": "3", "order": "3", "option": "بدء مشروع خاص", "weight": "2" },
+                    { "id": "4", "order": "4", "option": "تطوير المهارات", "weight": "3" }
+                ],
+                "perfect_answer": "[1,4]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "25",
+                "order": "25",
+                "type": "select",
+                "question": "هل تفضل الانضمام لمجتمع تعليمي يمكنك من خلاله مشاركة التحديات والاستفادة من تجارب الآخرين؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "نعم بشدة", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "نعم", "weight": "3" },
+                    { "id": "3", "order": "3", "option": "لا يهمني", "weight": "2" },
+                    { "id": "4", "order": "4", "option": "لا أفضل", "weight": "1" }
+                ],
+                "perfect_answer": "[1]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "26",
+                "order": "26",
+                "type": "select",
+                "question": "ما هي خيارات الدفع المناسبة لك؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "الدفع الكامل مقدماً", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "الدفع على أقساط", "weight": "3" },
+                    { "id": "3", "order": "3", "option": "الدفع بعد اجتياز مرحلة الأساسيات", "weight": "2" },
+                    { "id": "4", "order": "4", "option": "التقديم على منحة مجانية", "weight": "1" }
+                ],
+                "perfect_answer": "[1]",
+                "placeholder": "",
+                "range": ""
+            },
+            {
+                "id": "27",
+                "order": "27",
+                "type": "select",
+                "question": "كيف سمعت عن دورتنا؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [
+                    { "id": "1", "order": "1", "option": "وسائل التواصل الاجتماعي", "weight": "4" },
+                    { "id": "2", "order": "2", "option": "صديق", "weight": "4" },
+                    { "id": "3", "order": "3", "option": "بحث على الإنترنت", "weight": "4" },
+                    { "id": "4", "order": "4", "option": "Other", "weight": "4" }
+                ],
+                "perfect_answer": "any",
+                "placeholder": "يرجى التوضيح إذا اخترت ",
+                "range": ""
+            },
+            {
+                "id": "28",
+                "order": "28",
+                "type": "text",
+                "question": "ما هي توقعاتك من هذه الدورة؟",
+                "description": "",
+                "required": 1,
+                "notes": [],
+                "options": [],
+                "perfect_answer": "any",
+                "placeholder": "اكتب توقعاتك هنا",
+                "range": "",
+                "weight": "4"
+            }
+        ]
+    }
+}
